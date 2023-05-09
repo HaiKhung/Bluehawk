@@ -24,83 +24,92 @@
 </head>
 
 <body>
-    <hr>
-
+    
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-12">
+        <div class="container">
+            <hr>
+            <div class="row">
+                <div class="col-12">
 
-                <div class="text">
-                    <h2>Sign Up for Texts From Our Recruiting Team</h2>
-                    <p>Bluehawk LLC uses text messages to help communicate in process of matching you to a job
-                        opportunity.
-                        Text messages of varying frequency may be used to gauge your initial interest in a job or during
-                        the
-                        job search process to keep you informed during the recruiting process.</p>
-                    <p>There is zero spam and your phone number will never be shared or sold by Bluehawk LLC.</p>
-                </div>
-
-                <div class="form-group">
-                    <div class="input-group mb-3 d-flex flex-column">
-                        <label for="fullName">*Full Name</label>
-                        <input type="text" class="form-control w-100" aria-label="Fullname"
-                            aria-describedby="basic-addon1">
+                    <div class="text">
+                        <h2>Sign Up for Texts From Our Recruiting Team</h2>
+                        <p>Bluehawk LLC uses text messages to help communicate in process of matching you to a job
+                            opportunity.
+                            Text messages of varying frequency may be used to gauge your initial interest in a job or
+                            during
+                            the
+                            job search process to keep you informed during the recruiting process.</p>
+                        <p>There is zero spam and your phone number will never be shared or sold by Bluehawk LLC.</p>
                     </div>
 
-                    <div class="input-group mb-3 d-flex flex-column">
-                        <label for="phone">*Mobile Number</label>
-                        <input type="tel" id="phone" name="phone" class="form-control w-100"
-                            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                    <div class="form-group">
+                        <div class="input-group mb-3 d-flex flex-column">
+                            <label for="fullName">*Full Name</label>
+                            <input type="text" class="form-control w-100" aria-label="Fullname"
+                                aria-describedby="basic-addon1">
+                        </div>
+
+                        <div class="input-group mb-3 d-flex flex-column">
+                            <label for="phone">*Mobile Number</label>
+                            <input type="tel" id="phone" name="phone" class="form-control w-100"
+                                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                        </div>
                     </div>
+
+                    <div class="text pt-md-3">
+                        <h5>SMS Terms & Conditions</h5>
+                        <p>By subscribing, you consent to receiving texts of varying frequency from our recruiting team.
+                            Message and data
+                            rates may apply. To opt out of our text messaging program, reply with the word STOP to any
+                            text message
+                            received.</p>
+                        <p>For help or information on this program text the word HELP to any text message received.</p>
+
+                        <p class="mb-0">To view our privacy policy, <a href="#">click here.</a></p>
+                        <p>To view our terms and conditions, <a href="#">click here.</a></p>
+                    </div>
+
+                    <div class="form-check pb-md-4">
+                        <input type="radio" id="text-yes" name="text" value="yes" class="form-check-input" required>
+                        <label class="form-check-label form-check-square" for="text-yes">*Yes, I'd like to receive texts from the Bluehawk
+                            recruiting team.</label>
+                    </div>
+
+                    <a href="#" class="btn btn-primary btn-lg text-uppercase" role="button" aria-pressed="true">sign
+                        up</a>
+
+                    <hr>
+
+                    <div class="text">
+                        <h6 class="text-danger">NOTES on the above Draft Design:</h6>
+                        <ul class="list-unstyled">
+                            <li class="d-flex">
+                                <span class="mr-2 align-self-top">&#8226;</span>
+                                <span>This web page would be similar to the anonymous reporting web page you recently
+                                    built. It would not be linked to from our main webpage, but rather only accessed via
+                                    the specific URL.
+                            </li>
+                            <li class="d-flex">
+                                <span class="mr-2 align-self-top">&#8226;</span>
+                                <span>Asterisks indicate required fields.</span>
+                            </li>
+                            <li class="d-flex">
+                                <span class="mr-2 align-self-top">&#8226;</span>
+                                <span>I am working with our attorneys on a privacy policy and terms and conditions.
+                                    Once I have those, we’ll need to link to them from this page. I presume we’ll save
+                                    those two items as
+                                    pdf’s
+                                    that we can store in our WordPress instance.</span>
+                            </li>
+                            <li class="d-flex">
+                                <span class="mr-2 align-self-top">&#8226;</span>
+                                <span>After clicking the Sign Up button above, we would want the information from the
+                                    form sent to an internal email alias (which I haven’t set up yet).</span>
+                            </li>
+                        </ul>
+                    </div>
+
                 </div>
-
-                <div class="text">
-                    <h5>SMS Terms & Conditions</h5>
-                    <p>By subscribing, you consent to receiving texts of varying frequency from our recruiting team. Message and data
-                        rates may apply. To opt out of our text messaging program, reply with the word STOP to any text message
-                        received.</p>
-                    <p>For help or information on this program text the word HELP to any text message received.</p>
-                    
-                    <p>To view our privacy policy, <a href="#">click here.</a></p>
-                    <p>To view our terms and conditions, <a href="#">click here.</a></p>
-                </div>
-
-                <div class="form-check">
-                    <input type="radio" id="text-yes" name="text" value="yes" class="form-check-input" required>
-                    <label class="form-check-label" for="text-yes">*Yes, I'd like to receive texts from the Bluehawk recruiting team.</label>
-                </div>
-
-                <a href="#" class="btn btn-primary btn-lg text-uppercase" role="button" aria-pressed="true">sign up</a>
-
-                <hr>
-
-                <div class="text">
-                    <h6 class="text-danger">NOTES on the above Draft Design:</h6>
-                    <ul class="list-unstyled">
-                        <li class="d-flex">
-                            <span class="mr-2 align-self-center">&#8226;</span>
-                            <span>This web page would be similar to the anonymous reporting web page you recently
-                                built. It would not be linked to from our main webpage, but rather only accessed via the specific URL.
-                        </li>
-                        <li class="d-flex">
-                            <span class="mr-2 align-self-center">&#8226;</span>
-                            <span>Asterisks indicate required fields.</span>
-                        </li>
-                        <li class="d-flex">
-                            <span class="mr-2 align-self-center">&#8226;</span>
-                            <span>I am working with our attorneys on a privacy policy and terms and conditions.
-                                Once I have those, we’ll need to link to them from this page. I presume we’ll save those two items as
-                                pdf’s
-                                that we can store in our WordPress instance.</span>
-                        </li>
-                        <li class="d-flex">
-                            <span class="mr-2 align-self-center">&#8226;</span>
-                            <span>After clicking the Sign Up button above, we would want the information from the
-                                form sent to an internal email alias (which I haven’t set up yet).</span>
-                        </li>
-                    </ul>
-                </div>
-
             </div>
         </div>
     </div>
