@@ -44,13 +44,13 @@
 
                     <div class="form-group">
                         <div class="input-group mb-3 d-flex flex-column">
-                            <label for="fullName">*Full Name</label>
+                            <label for="fullName"><span class="text-danger">*</span>Full Name</label>
                             <input type="text" class="form-control w-100" aria-label="Fullname"
-                                aria-describedby="basic-addon1">
+                                aria-describedby="basic-addon1" required>
                         </div>
 
                         <div class="input-group mb-3 d-flex flex-column">
-                            <label for="phone">*Mobile Number</label>
+                            <label for="phone"><span class="text-danger">*</span>Mobile Number</label>
                             <input type="tel" id="phone" name="phone" class="form-control w-100"
                                 pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
                         </div>
@@ -71,7 +71,7 @@
 
                     <div class="form-check pb-md-4">
                         <input type="radio" id="text-yes" name="text" value="yes" class="form-check-input" required>
-                        <label class="form-check-label form-check-square" for="text-yes">*Yes, I'd like to receive texts from the Bluehawk
+                        <label class="form-check-label form-check-square" for="text-yes"><span class="text-danger">*</span>Yes, I'd like to receive texts from the Bluehawk
                             recruiting team.</label>
                     </div>
 
